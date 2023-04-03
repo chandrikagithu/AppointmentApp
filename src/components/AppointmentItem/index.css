@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.appointment-details {
+  list-style-type: none;
+  width: 250px;
+  padding-left: 10px;
+  height: 90px;
+  border: 1px solid #b5b7c4;
+  border-radius: 16px;
+  margin: 15px;
+  margin-left: 0;
+}
+.title-star {
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  color: #171f46;
+  font-size: 19px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.star-button {
+  border: none;
+  background-color: transparent;
+}
+.star-image {
+  padding-right: 10px;
+  width: 32px;
+  height: 25px;
+}
+.date {
+  color: #b5b7c4;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
